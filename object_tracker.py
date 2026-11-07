@@ -20,7 +20,7 @@ model = YOLO('yolov8m.pt')
 print("\n" + "="*45)
 print(" CodeAlpha Object Tracker - Select Source ")
 print("="*45)
-user_input = input("Type a video filename (e.g. test_video01.mp4) OR press ENTER for Live Webcam: ").strip()
+user_input = input("Type a video filename (e.g. test_video.mp4) OR press ENTER for Live Webcam: ").strip()
 
 if user_input == "":
     video_source = 0
